@@ -1,0 +1,1677 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Leandro Silva</Author>
+  <LastAuthor>Leandro Silva</LastAuthor>
+  <Created>2020-11-10T21:08:03Z</Created>
+  <LastSaved>2020-12-01T23:19:44Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13290</WindowHeight>
+  <WindowWidth>24240</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16" ss:Name="Moeda">
+   <NumberFormat
+    ss:Format="_-&quot;R$&quot;\ * #,##0.00_-;\-&quot;R$&quot;\ * #,##0.00_-;_-&quot;R$&quot;\ * &quot;-&quot;??_-;_-@_-"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s18" ss:Parent="s16">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s19">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FF0000"/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s24" ss:Parent="s16">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Plan2">
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="131" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s19" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:StyleID="s19" ss:Width="54.75"/>
+   <Column ss:StyleID="s19" ss:Width="340.5"/>
+   <Column ss:StyleID="s19" ss:Width="400.5"/>
+   <Column ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="90.75"/>
+   <Column ss:StyleID="s19" ss:Width="44.25"/>
+   <Column ss:StyleID="s19" ss:Width="21"/>
+   <Column ss:StyleID="s24" ss:Width="78"/>
+   <Column ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="62.25"/>
+   <Column ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="45"/>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="String">tipo</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">cod</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">img</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">produto</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">codbar</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">unid</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">qtd</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">valor_uni</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">bem</Data></Cell>
+    <Cell><Data ss:Type="String">val</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801071</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/801071.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. S/Desid. Parm. Parmíssimo Cx10x500g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980137</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">5kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">293.60000000000002</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801081</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/801081.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. S/Desid. Prov. Parmíssimo Cx10x500g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980090</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">5kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">293.60000000000002</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801291</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/801291.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. S/Desid. Parm. Parmíssimo Cx12x150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980212</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">1,8kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">110.97</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801301</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/801301.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. S/Desid. Prov. Parmíssimo Cx12x150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980229</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">1,8kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">110.97</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801311</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/801311.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. S/Desid. Parm. Lascas Cx12x150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980236</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">1,8kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">110.97</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801321</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/801321.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. S/Desid. Mix 4Queijos Cx12x150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980243</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">1,8kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">110.97</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800461</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800461.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm. Fati. Gran ParmísZeroLactose Cx24x110g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980397</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">2,64kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">190.6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">180</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802851</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802851.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Prov.Fatiado F3 Parmíssimo Kg&#10;1 Forma+/-3Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982250</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">43.5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">180</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">804021</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/804021.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Colonial (Meia Lua) Parmíssimo '&#10;12 Ped+/-250gr+/-3Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982328</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">180</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800101</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800101.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Saboritali Cx50x50g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980465</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">2,5kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">166.45</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800111</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800111.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Saboritali Cx20x50g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">27898322980462</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">66.569999999999993</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800131</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800131.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Tropicale Cx50x40g</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">2kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">119</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800221</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800221.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Parmézzo Cx25x40g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980342</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">59.5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800231</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800231.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Parmézzo Cx50x40g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">27898322980349</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">2kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">119</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800241</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800241.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Parmézzo Cx5x400g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980403</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">2kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">119</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800351</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800351.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Parmíssimo Cx20x50g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">27898322980035</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">66.569999999999993</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800371</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800371.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Parmézzo SC 25Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980366</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">25kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">1487.5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">SC</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800381</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800381.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Parmíssimo Cx50x50g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980038</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">2,5kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">166.42</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800521</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800521.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Parmíssimo Light Cx50x50g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980052</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">2,5kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">183.07</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800601</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800601.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Gran Parmís.ZeroLact. Cx25x100g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980755</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">2,5kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">198.75</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800611</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800611.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Pt Gran Parmíssimo ZeroLact Cx24x150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980762</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">3,6kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">303.66000000000003</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800691</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800691.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Parmíssimo Cx25x100g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980069</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">2,5kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">166.42</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801061</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/801061.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Parmíssimo Cx10x500g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980106</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">5kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">316.2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801661</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Prov. Fatiado Parmíssimo Cx8x500g.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322981349</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">4kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801941</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/801941.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Pt Parmíssimo Cx24x75g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980489</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">1,8kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">134.59</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801961</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/801961.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Pt Parmíssimo Cx24x150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980199</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">3,6kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">257.36</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801991</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/801991.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Pt Grana Parmíssimo Cx24x80g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322981141</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">1,92kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">190.81</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">803051</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/803051.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Parmíssimo SC 25Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980496</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">25kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">1581</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">SC</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802511</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802511.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Prov. Esp. Pratico Parmíssimo '&#10;15 Ped +/- 200Gr +/- 3,1Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982199</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">45.6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">270</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802521</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802521.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Prov. Espeto Parmíssimo '&#10;14 Ped +/- 295Gr +/- 4,130Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982205</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">45.6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">270</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802531</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802531.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Prov. Pedaço Parmíssimo '&#10;15 Ped +/- 200Gr +/- 3,0Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982212</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">45.6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">270</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802541</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802541.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Prov. Trança Parmíssimo '&#10;18 Ped +/- 200Gr +/- 3,6Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982229</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">45.6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">270</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802601</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802601.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Prov. Salanete Parmíssimo '&#10;15 Ped +/- 180Gr +/- 2,7Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982236</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">45.6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">270</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802841</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802841.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Prov.F3 Parmíssimo '&#10;1 Forma +/- 3Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982243</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">270</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800621</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800621.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm. F4 Gran Parmíssimo Zero Lactose '&#10;1 Forma+/-4Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982267</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">61.9</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800631</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800631.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm. cv Baby Gran ParmísZero Lact.'&#10;18 Formas+/-200Gr+/-3,650Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982274</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">68.8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800641</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800641.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm. F2 Panela Gran ParmísZero Lact.'&#10;1 Forma+/-2Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982281</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">61.9</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800651</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800651.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm. cv Cunha P.Gran ParmísZero Lact.Kg&#10;+/-32 cunhas+/-130Gr+/-4,200Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982298</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">68.8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800661</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800661.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm. F2 Gran ParmísZero Lactose '&#10;1/2 Forma +/- 2Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982366</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">61.9</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802011</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802011.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm. F4 Parmézzo '&#10;1 Forma +/- 4Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982007</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802071</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802071.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm. F4 Light Parmíssimo '&#10;1 Forma +/- 4Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982014</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802081</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802081.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm. F4 Parmíssimo '&#10;1 Forma +/- 4Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982021</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802111</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Grana Cunha Parmíssimo '&#10;14 Cunhas +/-210Gr +/-2,900Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982137</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">85.5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802151</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802151.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm. cv Cunha P.Parmíssimo '&#10;32 Cunhas +/- 130Gr +/- 4,100Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982038</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802171</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802171.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm. Baby Parmíssimo '&#10;18 Formas +/- 200Gr +/- 3,650Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982045</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802181</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802181.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Grana F1/8 Parmíssimo '&#10;1 Forma +/- 3,6Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982151</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">76.5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802201</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802201.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm. cv Miolo Parmíssimo '&#10;20 formas +/- 180Gr +/- 3,25Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982052</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802221</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Grana 1/8 Fracionado Parmíssimo '&#10;3 Pedaços +/- 1'= +/-3Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982168</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">76.5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802351</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802351.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm. F2 Parmézzo '&#10;1/2 Forma +/- 2Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982069</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802391</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802391.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm. F2 Parmíssimo '&#10;1/2 Forma +/- 2Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982076</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802901</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802901.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm. F2 Panela Parmíssimo '&#10;2 Forma +/- 2'= +/-4kgs</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982083</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">59.29</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802911</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802911.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm. F4 Panela Parmíssimo '&#10;1 Forma +/- 4Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982090</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">59.29</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">803071</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/803071.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm. cv Cunha G.Parmíssimo '&#10;10 Cunhas +/- 350Gr = +/- 3,500Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982120</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800141</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Tropicale Cx10x500g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980472</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">5kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">297.5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800191</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Parmíssimo SH Cx300x10g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">27898322980684</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">3kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">177.96</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800201</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Parmíssimo SH Cx100x10g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">37898322980681</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">59.32</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800211</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Parmíssimo Cx5x1Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980021</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">5kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">316.2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800271</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Parmézzo Cx12x400g (uso Mp)</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322981219</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">4,8kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">285.60000000000002</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800281</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Mussarela Cubos Parmíssimo Cx24x150g.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322981226</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">3,6kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">149.76</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800282</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Mussarela Cubos Parmíssimo 150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">7898322981229</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">0,15kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">6.24</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">BD</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800301</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Colonial Fatiado Parmíssimo Cx24x150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">27898322980707</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">3,6kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">149.76</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800361</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Mussarela Fatiado Parmíssimo Cx24x150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">27898322980691</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">3,6kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">149.76</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800391</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Prato Fatiado Parmíssimo Cx24x150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">27898322981117</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">3,6kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">149.76</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800422</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Mussarela Fatiado Parmíssimo 150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">7898322980697</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">0,15kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">6.24</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">BD</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800432</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Colonial Fatiado Parmíssimo 150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">7898322980703</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">0,15kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">6.24</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">BD</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800592</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Prato Fatiado Parmíssimo 150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">7898322981113</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">0,15kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">6.24</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">BD</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">800711</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Gran ParmísZeroLact. Cx10x100g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">27898322980752</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">79.5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801072</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. S/Desid. Parm. Parmíssimo Pct.500g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">7898322980130</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">0,5kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">29.36</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">PC</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801082</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. S/Desid. Prov. Parmíssimo Pct.500g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">7898322980093</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">0,5kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">29.36</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">PC</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801111</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Prov. Fatiado Parmíssimo Cx24X150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322981233</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">3,6kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">180</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801112</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Prov. Fatiado Parmíssimo 150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">7898322981236</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">0,15kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">7.5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">BD</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801121</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Prov. Mini Fatiado Parmíssimo Cx24X150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322981240</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">3,6kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">180</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801122</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Prov. Mini Fatiado Parmíssimo 150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">7898322981243</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">0,15kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">7.5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">BD</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801141</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm.Lascas Parmíssimo Cx24x150g </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322981257</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">3,6kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">217.8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801151</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm.Fatiado Parmíssimo Cx24x150g </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322981264</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">3,6kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">217.8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801161</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Prov. Cubos Parmíssimo Cx24x150g.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322981271</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">3,6kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">180</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801261</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm.Cubo Parmíssimo Cx24x150g </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980328</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">3,6kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">217.8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801271</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm.Palito Parmíssimo Cx24x150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980335</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">3,6kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">217.8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801292</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. S/Desid. Parm. Parmíssimo Pct150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">7898322980215</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">0,15kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">9.25</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">PC</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801302</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. S/Desid. Prov. Parmíssimo Pct150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">7898322980222</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">0,15kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">9.25</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">PC</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801312</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. S/Desid. Parm. Lascas Pct150gr</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">7898322980239</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">0,15kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">9.25</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">PC</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801322</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. S/Desid. Mix 4Queijos Pct150g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">7898322980246</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">0,15kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">9.25</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">PC</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801581</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Parmíssimo (uso Mp) Cx10x500g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980151</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">5kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">316.2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801591</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Parmíssimo (Uso MP) Ralo Médio Cx10x500g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322981288</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">5kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">360.56</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801662</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Prov. Fatiado Parmíssimo 500g</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">7898322981342</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">0,5kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">UN</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">801681</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/801681.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Parmíssimo Fino Cx5,100kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980168</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">5,1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">322.52</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802061</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm. cv Cunha Urug.Parmíssimo '&#10;15 Cunhas +/- 290Gr +/- 4,250Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982175</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">68.8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802091</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Parm. cvcp Cunha Urug. Parmíssimo '&#10;15 Cunhas +/- 290Gr +/- 4,250Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982342</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">68.8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802831</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Prov.Fatiado F3 INSUMO '&#10;1 Forma+/-3Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982335</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">43.5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802861</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Prato Fatiado F2 Parmíssimo '&#10;1 Forma+/-2,5Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982373</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">802871</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Mussarela Fatiado F2 Parmíssimo '&#10;1 Forma+/-2,5Kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">97898322982380</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String" x:Ticked="1">1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">KG</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">803091</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Qj. Ral. Parmíssimo Cx1x5.100kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">17898322980311</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">5,1kg</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">322.52</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CX</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">800121</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800121.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">800161</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800161.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">800261</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800261.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">800331</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800331.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">800421</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800421.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">800431</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800431.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">800441</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800441.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">800451</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800451.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">800471</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800471.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">800481</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800481.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">800531</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800531.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">800541</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800541.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">800551</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800551.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">800561</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800561.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">800571</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800571.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">800581</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800581.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">800591</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/800591.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">800671</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">800681</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/logo.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">801101</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/801101.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">801131</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/801131.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">802121</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802121.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">802131</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802131.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">802141</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802141.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">802161</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802161.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">802211</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802211.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">802261</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802261.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">802461</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802461.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">802501</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802501.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">802551</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802551.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">802561</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802561.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">802571</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802571.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">802891</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/802891.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">803031</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/803031.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">803041</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/803041.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">803061</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/803061.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">804011</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/804011.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">804031</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">../empresas/parmissimo/img/804031.png</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">DESCONTINUADO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.31496062000000002"/>
+    <Footer x:Margin="0.31496062000000002"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.511811024"
+     x:Right="0.511811024" x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>104</TopRowVisible>
+   <LeftColumnVisible>1</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R131C10</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

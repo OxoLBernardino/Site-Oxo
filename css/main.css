@@ -1,0 +1,656 @@
+*{
+  font-family: 'Oswald', sans-serif;
+  box-sizing: border-box;   
+}
+body{
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 120px 60px 1fr 60px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "cabecalho" "navegacao" "principal" "rodape";    
+}
+.responsive-logo_topo{
+    position: absolute;
+    margin: 10px;
+    width: 13vw;
+    height: 13vw;
+    z-index: 1;
+    
+}
+.container{
+    max-width: 100%;
+    height: 20px;    
+}
+
+/*########################KODILAR#############################################*/
+.cabecalho{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #fef271;
+    color: #808080;
+    text-shadow: 2px 2px 0px #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    box-shadow: 0px 4px 9px -2px rgba(0,0,0,0.75);
+}
+.cabecalho > h1{
+    margin: 0px;
+    font-weight: 300;
+    font-size: 2.8rem;
+    text-align: center;
+
+
+    
+}
+.cabecalho > h2{
+    margin: 0px;
+    font-weight: 200;
+    font-size: 1.6rem;
+}
+/*############################################################################*/
+
+/*########################PARMISSIMO##########################################*/
+.cabecalho_parm{
+    margin: 0 auto;
+    width: 100%;
+    background-color: red;
+    color: #fff;
+    text-shadow: 2px 2px 0px #808080;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    box-shadow: 0px 4px 9px -2px rgba(0,0,0,0.75);
+}
+.cabecalho_parm > h1{
+    margin: 0px;
+    font-weight: 300;
+    font-size: 2.8rem;    
+}
+.cabecalho_parm > h2{
+    margin: 0px;
+    font-weight: 200;
+    font-size: 1.6rem;
+}
+/*############################################################################*/
+
+/*########################YOR#################################################*/
+.cabecalho_yor{
+    margin: 0 auto;
+    width: 100%;
+    background-color: maroon;
+    color: red;
+    text-shadow: 2px 2px 0px #808080;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    box-shadow: 0px 4px 9px -2px rgba(0,0,0,0.75);
+}
+.cabecalho_yor> h1{
+    margin: 0px;
+    font-weight: 300;
+    font-size: 2.8rem;    
+}
+.cabecalho_yor > h2{
+    margin: 0px;
+    font-weight: 200;
+    font-size: 1.6rem;
+}
+/*############################################################################*/
+
+.log{
+    position: absolute;
+    float: right;
+    width: 80px;
+    margin: 5px 500px;
+}
+
+.navegacao{
+    grid-area: navegacao;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #fff;
+}
+.menu{
+    
+    height: 50px;
+    position: relative;
+    float: right;
+    list-style: none;
+    display: inline-flex;
+}
+.menu ul{
+    margin: 0;
+}
+.menu ul li{
+    list-style: none;
+    float: right;
+    width: 150px;
+}
+.menu a{
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    color: #808080;    
+}
+.menu a:hover{
+    text-decoration: none;
+    color: #013ADF;    
+}
+.cat > a{
+    text-decoration: none;
+    color: #808080;
+    font-weight: 300;
+    font-size: 1.3rem;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+.principal{
+    grid-areas: principal;
+    height: calc(100vh - 240px);
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+.principal a{
+    text-decoration: none;
+}
+.w-100{
+    margin: 0 auto;
+    width: 100%!important;
+}
+.conteudo > .titulo{
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #999;
+    margin-bottom: 20px;
+}
+.conteudo{
+    position: relative;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2); 
+    font-size: 2rem;
+}
+.conteudo .video{
+    width: 496px;
+    height: 281px;
+}
+.conteudo .direita{
+    align-items: center;
+}
+
+.rodape{
+    grid-areas: rodape;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-right: 20px;
+    color: #444444;
+}
+
+/*Botão das empresas do catalogo*/
+
+.emp{
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.emp p{
+    margin: 25px;
+}
+
+/*Menu responsivo*/
+
+
+label[for="bt_menu"]{
+    padding: 5px;
+    background-color: #fff;
+    color: #000;
+    font-family: "Arial";
+    text-align: right;
+    font-size: 30px;
+    cursor: pointer;
+}
+label[for="bt_menu"]{
+    display: none;
+}
+.fix{
+        clear: both;
+    }
+#bt_menu{
+        display: none;
+    }
+    
+.nav_index{
+    background-position: 50% 0;
+    z-index: 1;
+    float: right;
+    
+}
+.nav_index nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nav_index nav ul li{
+    list-style: none;
+}
+.nav_index nav ul li a{
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    color: #808080;
+    text-transform: uppercase;
+}
+
+.nav_index nav ul li a:hover{
+    text-decoration: none;
+    text-shadow:none; /*sombreamento para as fontes do site*/
+    border-radius: 10px;
+    background-color: #b8860b;
+    color: #800000;
+    cursor: pointer;
+}
+.menu_toggle{
+    color: #000;
+    float: right;
+    font-size: 35px;
+    margin-top: 12px;
+    cursor: pointer;
+    display: none;
+}
+
+ 
+/**********************************************************
+Pagina contato email
+**********************************************************/
+fieldset{
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 15px;
+}
+.cad_cliente1 h2{
+    text-align: center;    
+}
+form.form1{
+    text-align: center;
+}
+input.camp1{
+    width: 50%;
+    font-size: 1.3rem;
+    border: solid 2px #000;
+    border-radius: 10px 10px 0 0;
+    margin-top: 5px;
+}
+input.camp2{
+    width: 50%;
+    border: solid 2px #000;
+    font-size: 1.3rem;
+    margin-top: 5px;
+}
+.textarea1{
+    width: 50%;
+    height: 150px;
+    font-size: 1.3rem;
+    border: solid 2px #000;
+    border-radius: 0 0 15px 15px;
+    margin-top: 5px;
+}
+
+.btmenucad1{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    background-color: #808080;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 220px;
+    
+}
+.btmenucad1:hover{
+    text-decoration: none;
+    text-shadow:none; /*sombreamento para as fontes do site*/
+    border-radius: 10px;
+    background-color: #b8860b;
+    color: #800000;
+    cursor: pointer;
+    
+}
+
+/**********************************************************
+Pagina Login
+**********************************************************/
+fieldset.cad_cliente2{
+    background-color: #ccc;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center
+}
+.cad_cliente2 label{
+    font-size: 1.4rem;
+}
+#digmail{
+    font-size: 1.3rem;
+    border: solid 2px #000;
+    border-radius: 10px 10px 0 0;
+    margin-top: 5px;
+    width: 20%;
+    cursor: pointer;
+}
+#digpass{
+    font-size: 1.3rem;
+    border: solid 2px #000;
+    border-radius: 0 0 10px 10px;
+    margin-top: 5px;
+    width: 20%;
+    cursor: pointer;
+}
+
+/**********************************************************
+Pagina Cadastro de cliente
+**********************************************************/
+
+input.cnpj{
+    font-size: 1.2rem;
+    border: solid 2px #000;
+    border-radius: 10px 0 0 0;
+    margin-top: 5px;
+    width: 20%;
+    cursor: pointer;
+}
+input.razsoc{
+    border: solid 2px #000;
+    border-radius: 0 10px 0 0;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    width: 60%;
+    cursor: pointer;
+}
+
+input.cont{
+    border: solid 2px #000;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    width: 50%;
+    cursor: pointer;
+}
+input.tel{
+    border: solid 2px #000;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    width: 14.5%;
+    cursor: pointer;
+}
+input.cel{
+    border: solid 2px #000;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    width: 15%;
+    cursor: pointer;
+}
+input.mailc{
+    border: solid 2px #000;
+    border-radius: 0 0 0 10px;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    width: 50%;
+    cursor: pointer;
+}
+input.pass{
+    border: solid 2px #000;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    width: 14.5%;
+    cursor: pointer;
+}
+input.passc{
+    border: solid 2px #000;
+    border-radius: 0 0 10px 0;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    width: 15%;
+    cursor: pointer;
+}
+.bt{
+    display: table;
+    margin: 20px auto;
+}
+
+.btmenucad2{
+    display: table;
+    font-size: 24px;
+    color: #fff;
+    background-color: #808080;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 220px;
+    
+}
+.btmenucad2:hover{
+    text-decoration: none;
+    text-shadow:none; /*sombreamento para as fontes do site*/
+    border-radius: 10px;
+    background-color: #b8860b;
+    color: #800000;
+    cursor: pointer;
+    
+}
+
+
+/**********************************************************
+Pagina Construção
+**********************************************************/
+
+.imgcons{
+    display: block;
+    margin: auto;
+    
+}
+
+
+/**********************************************************
+1200px – Desktops, notebooks com monitores widescreen
+**********************************************************/
+@media (max-width: 1036px){
+    
+    .logo_tipo{
+        background-image:url(../img/logo_oxo_100.png);
+        background-repeat: no-repeat;
+        display: block;
+        position: absolute;
+        margin: 0;
+        width: 100%;
+       
+}
+    .nav_index{
+    background-position: 50% 0;
+    z-index: 1;
+    float: right;
+    border-bottom: 2.5px solid #000;
+    
+}
+.nav_index.active{
+    left: 0;
+}
+
+.nav_index nav ul li a:hover{
+    text-decoration: none;
+    text-shadow:none; /*sombreamento para as fontes do site*/
+    border-radius: 10px;
+    background-color: #b8860b;
+    color: #800000;
+    cursor: pointer;
+}
+
+.menu_toggle{
+    display: block;
+}
+
+
+
+    
+
+	
+
+
+
+/* 
+960px – Tablets no formato paisagem e alguns monitores mais antigos
+***********************************************************/
+
+
+
+@media(max-width: 800px ){
+    label[for="bt_menu"]{
+    display: block;
+}
+#bt_menu:checked ~ .menu{
+    margin-left: 0;
+}
+    .menu{
+        margin-top: 5px; 
+        margin-left: -100%;
+        transition: all .4s;
+        z-index: 1;
+        
+    }
+    .menu ul li{
+        width: 100%;
+        float: none;
+        background-color: #058;
+        border-radius: 15px;
+        transition: all .4s;
+    }
+    .menu ul li:hover{
+        height: auto;
+        max-height: 200px;
+    }
+}
+
+
+
+
+
+/* 
+768px – Tablets no formato retrato, como o iPad
+***********************************************************/
+@media screen and (max-width:768px){
+/*cores dos links e H2*/
+	
+
+
+
+
+
+}
+/* 
+480px – Smartphones no formato paisagem com tela pequena
+***********************************************************/
+@media screen and (max-width:480px){
+/*Geral*/
+
+*{
+  font-family: 'Oswald', sans-serif;
+  box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    margin: 5px;
+    display: grid;
+    grid-template-rows: 160px 1fr 20px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "cabecalho" "principal" "rodape";    
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+.cabecalho{    
+    background-color: #fef271;
+    text-align: center;
+    color: #808080;
+    text-shadow:2px 2px 0px #fff; /*sombreamento para as fontes do site*/
+    
+    align-items: center;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 9px -2px rgba(0,0,0,0.75);
+}
+.cabecalho > h1{
+    margin: 0px;
+    font-weight: 300;
+    font-size: 2.3rem;    
+}
+.cabecalho > h2{
+    margin: 0px;
+    font-weight: 200;
+    font-size: 1.6rem;
+}
+.logo_tipo{
+    background-image:url(../img/logo_oxo_50.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    margin: 40px 10px 0 10px;
+    
+}
+
+
+
+
+
+
+/* 
+320px – Smartphones no formato retrato com tela pequena
+***********************************************************/
+@media screen and (max-width:320px){
+/*cores dos links e H2*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
